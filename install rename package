@@ -1,0 +1,8 @@
+1. cmd in terminal Android Studio
+  - flutter pub global activate rename 
+  
+2. change package with
+  - flutter pub global run rename --appname "xxxxx"
+  
+3. change unique AppID in playstore
+  - flutter pub global run rename --bundleId com.ponganan.xxxxx
