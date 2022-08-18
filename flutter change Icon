@@ -7,4 +7,30 @@
 
 4. copy res floder to ProjectFloderinComputer > android > app > src > main > res
 
-5.
+5. Make Floder +assets in android studio project
+
+6. Select the image 512*512 downloaded from xxx.com and put it in +assets floder
+
+7. go to https://pub.dev/packages/flutter_launcher_icons 
+
+8. in android studio go to pubspec.yaml  and copy this 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.10.0"
+
+flutter_icons:
+  android: true #change from android: "launcher_icon"
+  ios: true
+  image_path: "assets/ic_launcher.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  
+  
+  9. run the package by select "termanal" in android studio
+  
+   - flutter clean
+   - flutter pub get
+   - flutter pub run flutter_launcher_icons:main
+  
+  
